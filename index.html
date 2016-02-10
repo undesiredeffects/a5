@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+<head>
+	<link href="css/bootstrap.min.css" rel="stylesheet"/>
+	<script scr="anglar.min.js"></script>
+
+</head>
+
+<body np-app="tutorialsApp">
+		<div class="main" ng-controller="TutorialController">
+			<div ng-repeat="t in tutorials" class="col-md-6">
+				<p class="url">{{t.url}}</p>
+				<p class="title">{{t.title}}</p>
+			</dvi>
+		</div>
+
+		<script src="app.js"></script>
+		<script src="TutorialController.js"</script>
+</html>
